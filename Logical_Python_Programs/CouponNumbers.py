@@ -1,20 +1,16 @@
 """
    * Author - Nitin Babar
-   * Date -  15-DEC-2021
+   * Date -  19-DEC-2021
    * Time -  10:10 AM
    * Title - Coupon Number
 """
-
-
 
 import random
 
 class CouponNumber():
 
     def __init__(self, take_number):
-        """
-            constructor initialize using parameter
-        """
+       
         self.take_number = take_number
 
     def calculateDistinctNumber(self):
@@ -35,9 +31,6 @@ while True:
         if take_number < 0:
             print("Please Enter Positive Digits")
             continue
-            """
-                taking input from user
-            """
         coupon_number_object = CouponNumber(take_number)
         total_random_number = coupon_number_object.calculateDistinctNumber()
         print("Total Distinct Coupon Number : ", total_random_number)
