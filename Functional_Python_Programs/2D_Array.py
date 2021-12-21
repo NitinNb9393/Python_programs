@@ -6,13 +6,6 @@
 """
 
 def Input2DArray(Number):
-    """
-    Description: we are taking Input2DArray as a function and passing Number as Parameter
-    Parameter: Number
-    Number as a input
-    
-    """
-
     for i in range(2):
         for j in range(2):
              print(Number,end=" ")
