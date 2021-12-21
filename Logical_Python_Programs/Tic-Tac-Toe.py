@@ -1,6 +1,6 @@
 """
    * Author - Nitin Babar
-   * Date -  15-DEC-2021
+   * Date -  20-DEC-2021
    * Time -  8:00 AM
    * Title - Tic-Tac-Toe
 """
@@ -8,7 +8,6 @@
 import random
 print("Tic Tac Toe Game")
 
-# initalize the board
 board = ["-", "-", "-",
          "-", "-", "-",
          "-", "-", "-"]
@@ -19,11 +18,6 @@ current_player = "X"
 
 
 def display_board():
-    """
-        Description: we are taking display_board as a function
-        Parameter: none
-        Return: none
-    """
     print()
     print(board[0], "|", board[1], "|", board[2])
     print(board[3], "|", board[4], "|", board[5])
@@ -32,11 +26,6 @@ def display_board():
 
 
 def play_game():
-    """
-        Description: we are taking play_game as a function and using display_board and game_still_going function also
-        Parameter: none
-        Return: none
-    """
     display_board()
     while game_still_going:
         handle_turn(current_player)
@@ -45,11 +34,6 @@ def play_game():
 
 
 def handle_turn(player):
-    """
-        Description: we are taking handle_turn as a function and passing player parameter
-        Parameter: player
-        Return: none
-    """
     global current_player
     position = 0
     valid = False
@@ -74,11 +58,6 @@ def handle_turn(player):
 
 
 def flip_player():
-    """
-        Description: we are taking flip_player as a function
-        Parameter: none
-        Return: none
-    """
     global current_player
     if current_player == "X":
         current_player = "O"
@@ -87,11 +66,6 @@ def flip_player():
 
 
 def check_if_gameover():
-    """
-        Description: we are taking check_if_gameover,check_winner,check_tie as a function
-        Parameter: none
-        Return: none
-    """
     check_winner()
     check_tie()
 
