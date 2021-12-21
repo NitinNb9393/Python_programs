@@ -4,8 +4,6 @@
     * Time -  10pm
 	* Title - Harmonic Series Check
 """
-
-# Use try except block.
 try:
 
 	n=int(input("Enter nth number:"))
