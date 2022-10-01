@@ -1,4 +1,4 @@
-# Commands for running shell script
+# with python programs i have added more custom Commands for running shell script
 
 $ chmod +x sul.sh               
 
