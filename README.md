@@ -8,3 +8,6 @@ $ ./sul.sh
  one point ---- Networking - Bandwidth is remaning from my side
  
  I have used RHEL machine on aws ec2
+
+
+#do not condider this change
