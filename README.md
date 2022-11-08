@@ -10,4 +10,4 @@ $ ./sul.sh
  I have used RHEL machine on aws ec2
 
 
-#do not condider this change again
+#dont accept changes
